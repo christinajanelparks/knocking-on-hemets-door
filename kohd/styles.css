@@ -1,0 +1,100 @@
+body {
+  color: #333;
+  font-size: 1.15rem;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+#header-img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1em;
+}
+h3 {
+  font-size: 2em;
+}
+#title, h1, h2, h3 {
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+  padding: 30px;
+  }
+p, #album {
+  width: 700px;
+  margin: auto;
+}
+#tracklist {
+  margin-bottom: 50px;
+}
+#album-title {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  text-indent: 23px;
+}
+ol li {
+  padding: 10px;
+}
+
+footer p {
+  margin-top: 100px;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1rem;
+}
+
+#download, #download a {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  color: #333;
+  border-radius: 5px;
+}
+#download {
+  display: block;
+  margin: auto;
+  border: 1px solid #333;
+  background-color: #fff;
+}
+#download:hover {
+  background-color: rgba(0,153,153,0.5);
+}
+
+/* Media Queries */
+@media(max-width:768px) {
+  #header-img, p {
+    width: 100%;
+    }
+  h1 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 1.60em;
+  }
+  p {
+    width: 90%;
+    text-align: justify;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+  }
+  #album {
+    width: 90%;
+    /* margin-left: 1rem; */
+  }
+ #album-title {
+    font-size: 1.35rem;
+    width: 100%;
+  }
+  /* footer {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  } */
+}
